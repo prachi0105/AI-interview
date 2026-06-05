@@ -16,7 +16,7 @@ app.use(express.urlencoded({extended: true}))
 app.use(cookieParser())
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://ai-interview-client-16m5.onrender.com",
   credentials: true
 }))
 
